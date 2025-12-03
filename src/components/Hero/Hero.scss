@@ -1,0 +1,71 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.hero {
+  text-align: center;
+  background-color: $color-bg-white;
+
+  &__container {
+    @include container;
+    position: relative;
+  }
+
+  &__text-container {
+    width: 100%;
+    position: absolute;
+
+    @include desktop {
+      top: 10%;
+    }
+  }
+
+  &__title {
+    font-size: $font-size-3xl;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: $spacing-xs;
+    color: $color-text-primary;
+    line-height: $line-height-extra-loose;
+
+
+    @include tablet {
+      font-size: $font-size-6xl;
+    }
+  }
+
+  &__subtitle {
+    line-height: $line-height-extra-loose;
+
+    font-size: $font-size-2_5xl;
+    color: $color-text-primary;
+    margin-bottom: $spacing-xs;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+    @include tablet {
+      font-size: $font-size-4xl;
+    }
+  }
+
+  &__model {
+    font-size: $font-size-xl;
+    font-weight: 900;
+    margin-bottom: $spacing-lg;
+
+    @include tablet {
+      font-size: $font-size-4xl;
+    }
+  }
+
+  &__image {
+    margin: 0 0 $spacing-lg;
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+
+  &__product-image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
