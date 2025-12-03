@@ -1,0 +1,50 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.connectivity-content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+  align-items: center;
+
+  @include tablet {
+    flex-direction: row;
+  }
+
+  &__image {
+    flex: 1;
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+
+  &__text {
+    flex: 1;
+
+    .title-section {
+      font-size: $font-size-50px;
+      color: $color-text-primary;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .subtitle {
+
+      &__middle {
+        font-size: $font-size-2_5xl;
+        color: $color-text-primary;
+        font-weight: 500;
+        line-height: 13 0%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      &__bottom {
+        font-size: $font-size-2_5xl;
+        color: $color-text-primary;
+        font-weight: 500;
+        line-height: 13 0%;
+        text-align: center;
+      }
+    }
+  }
+}
