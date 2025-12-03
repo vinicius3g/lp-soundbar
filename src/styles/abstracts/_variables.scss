@@ -1,0 +1,198 @@
+// ===============================================
+// COLORS
+// ===============================================
+
+// Primary Colors
+$color-primary: #000000;
+$color-secondary: #333333;
+$color-accent: #ffffff;
+
+// Text Colors
+$color-text-primary: #222;
+$color-text-secondary: #222;
+$color-text-light: #666666;
+$color-text-white: #ffffff;
+
+// Background Colors
+$color-bg-light: #f5f5f5;
+$color-bg-dark: #222;
+$color-bg-white: #ffffff;
+
+// State Colors
+$color-success: #22c55e;
+$color-error: #ef4444;
+$color-warning: #f59e0b;
+$color-info: #3b82f6;
+
+// Overlay Colors
+$color-overlay-light: rgba(0, 0, 0, 0.1);
+$color-overlay-medium: rgba(0, 0, 0, 0.3);
+$color-overlay-dark: rgba(0, 0, 0, 0.7);
+
+// ===============================================
+// SPACING
+// ===============================================
+
+$spacing-xs: 0.5rem; // 8px
+$spacing-sm: 1rem; // 16px
+$spacing-md: 2rem; // 32px
+$spacing-lg: 3rem; // 48px
+$spacing-xl: 4rem; // 64px
+$spacing-2xl: 6rem; // 96px
+$spacing-3xl: 8rem; // 128px
+
+// ===============================================
+// TYPOGRAPHY
+// ===============================================
+
+// Font Families
+$font-primary: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+$font-secondary: 'Georgia', serif;
+$font-mono: 'Courier New', monospace;
+
+// Font Sizes
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-base: 1rem; // 16px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-2xl: 1.5rem; // 24px
+$font-size-2_5xl: 1.625rem; // 26px
+$font-size-3xl: 2rem; // 32px
+$font-size-4xl: 2.5rem; // 40px
+$font-size-5xl: 3rem; // 48px
+$font-size-50px: 3.125rem; // 50px
+$font-size-6xl: 3.5rem; // 56px
+$font-size-36px: 2.25rem; // 36px
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-black: 900;
+
+// Line Heights
+$line-height-tight: 1.2;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.8;
+$line-height-loose: 2;
+$line-height-extra-loose: 1.125;
+
+// Letter Spacing
+$letter-spacing-tight: -0.025em;
+$letter-spacing-normal: 0;
+$letter-spacing-wide: 0.025em;
+$letter-spacing-wider: 0.05em;
+$letter-spacing-widest: 0.1em;
+
+// ===============================================
+// LAYOUT
+// ===============================================
+
+$container-max-width: 1200px;
+$container-max-width-sm: 640px;
+$container-max-width-md: 768px;
+$container-max-width-lg: 1024px;
+$container-max-width-xl: 1280px;
+$container-max-width-2xl: 1536px;
+
+// ===============================================
+// BORDERS
+// ===============================================
+
+$border-radius-none: 0;
+$border-radius-sm: 4px;
+$border-radius: 8px;
+$border-radius-md: 12px;
+$border-radius-lg: 16px;
+$border-radius-xl: 24px;
+$border-radius-full: 9999px;
+
+$border-width-thin: 1px;
+$border-width-medium: 2px;
+$border-width-thick: 4px;
+
+// ===============================================
+// SHADOWS
+// ===============================================
+
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
+$shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25);
+$shadow-inner: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+
+// ===============================================
+// TRANSITIONS
+// ===============================================
+
+$transition-fast: 0.15s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+$transition-all-fast: all 0.15s ease;
+$transition-all-normal: all 0.3s ease;
+$transition-all-slow: all 0.5s ease;
+
+// Specific transitions
+$transition-transform: transform 0.3s ease;
+$transition-opacity: opacity 0.3s ease;
+$transition-colors: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+// ===============================================
+// Z-INDEX
+// ===============================================
+
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+
+// ===============================================
+// BREAKPOINTS
+// ===============================================
+
+$breakpoint-xs: 480px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Aliases (for consistency with current code)
+$breakpoint-tablet: $breakpoint-md;
+$breakpoint-desktop: $breakpoint-lg;
+$breakpoint-large: 1440px;
+
+// ===============================================
+// GRID
+// ===============================================
+
+$grid-columns: 12;
+$grid-gap: $spacing-md;
+$grid-gap-sm: $spacing-sm;
+$grid-gap-lg: $spacing-lg;
+
+// ===============================================
+// OPACITY
+// ===============================================
+
+$opacity-0: 0;
+$opacity-10: 0.1;
+$opacity-20: 0.2;
+$opacity-30: 0.3;
+$opacity-40: 0.4;
+$opacity-50: 0.5;
+$opacity-60: 0.6;
+$opacity-70: 0.7;
+$opacity-80: 0.8;
+$opacity-90: 0.9;
+$opacity-100: 1;
