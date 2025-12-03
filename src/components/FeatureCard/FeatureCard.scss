@@ -1,0 +1,32 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.feature-card {
+  padding: $spacing-sm;
+  border-radius: $border-radius;
+  text-align: center;
+  transition: transform $transition-normal, background-color $transition-normal;
+
+  &:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  &__icon {
+    color: $color-text-white;
+    margin-bottom: $spacing-sm;
+    @include flex-center;
+  }
+
+  &__title {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    color: $color-text-white;
+    margin-bottom: $spacing-xs;
+  }
+
+  &__description {
+    font-size: $font-size-sm;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
