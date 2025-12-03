@@ -15,26 +15,38 @@
     flex: 1;
 
     .title-section {
-      font-size: $font-size-50px;
       color: $color-text-primary;
       font-weight: 700;
       text-align: center;
+      font-size: $font-size-2xl;
+
+      @include tablet {
+        font-size: $font-size-50px;
+      }
     }
-    
+
     .subtitle {
-      font-size: $font-size-36px;
       color: $color-text-primary;
       font-weight: 500;
       line-height: 160%;
       text-align: center;
+      font-size: $font-size-2xl;
+
+      @include tablet {
+        font-size: $font-size-36px;
+      }
     }
 
     .describe-text {
       margin-top: $spacing-md;
-      font-size: $font-size-2_5xl;
       line-height: 130%;
       text-align: center;
       color: $color-text-primary;
+      font-size: $font-size-xl;
+
+      @include tablet {
+        font-size: $font-size-2_5xl;
+      }
     }
   }
 

@@ -21,29 +21,41 @@
     flex: 1;
 
     .title-section {
-      font-size: $font-size-50px;
       color: $color-text-primary;
       font-weight: 700;
       text-align: center;
+      font-size: $font-size-2xl;
+
+      @include tablet {
+        font-size: $font-size-50px;
+      }
     }
 
     .subtitle {
 
       &__middle {
-        font-size: $font-size-2_5xl;
         color: $color-text-primary;
         font-weight: 500;
         line-height: 13 0%;
         text-align: center;
         margin-bottom: 20px;
+        font-size: $font-size-xl;
+
+        @include tablet {
+          font-size: $font-size-2_5xl;
+        }
       }
 
       &__bottom {
-        font-size: $font-size-2_5xl;
         color: $color-text-primary;
         font-weight: 500;
         line-height: 13 0%;
         text-align: center;
+        font-size: $font-size-xl;
+
+        @include tablet {
+          font-size: $font-size-2_5xl;
+        }
       }
     }
   }

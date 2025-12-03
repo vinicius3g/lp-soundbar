@@ -1,3 +1,9 @@
+@mixin xss {
+  @media (min-width: $breakpoint-xs) {
+    @content;
+  }
+}
+
 @mixin xs {
   @media (min-width: $breakpoint-xs) {
     @content;
@@ -81,9 +87,7 @@
 
 // Container
 @mixin container($max-width: $container-max-width) {
-  max-width: $max-width;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
 }
 
 // Flexbox utilities

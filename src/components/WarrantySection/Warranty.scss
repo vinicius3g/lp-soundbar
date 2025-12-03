@@ -8,9 +8,13 @@
 
   p {
     margin-bottom: $spacing-lg;
-    font-size: $font-size-2_5xl;
     color: $color-text-primary;
     font-weight: 500;
+    font-size: $font-size-xl;
+
+    @include tablet {
+      font-size: $font-size-2_5xl;
+    }
 
     span {
       font-weight: 700;

@@ -33,8 +33,12 @@
    margin: 0 auto $spacing-md;
    line-height: 130%;
    text-align: center;
-   font-size: $font-size-2_5xl;
    color: $color-text-primary;
+   font-size: $font-size-xl;
+
+   @include tablet {
+     font-size: $font-size-2_5xl;
+   }
 
    .emphasis-text {
      font-weight: 700;
@@ -44,24 +48,36 @@
  .section-text-third {
    font-weight: 500;
    color: $color-text-primary;
-   font-size: $font-size-2_5xl;
    line-height: 130%;
    text-align: center;
-   
+   font-size: $font-size-xl;
+
+   @include tablet {
+     font-size: $font-size-2_5xl;
+   }
+
    &__subtext {
      font-weight: 500;
      margin-top: 75px;
-     font-size: $font-size-2_5xl;
      color: $color-text-primary;
      text-align: center;
+     font-size: $font-size-xl;
+
+     @include tablet {
+       font-size: $font-size-2_5xl;
+     }
    }
  }
 
  .wireless-text {
    color: $color-text-white;
-   font-size: $font-size-2_5xl;
+   font-size: $font-size-xl;
    text-align: center;
    font-weight: 500;
+
+   @include tablet {
+     font-size: $font-size-2_5xl;
+   }
  }
 
  .middle_banner {
