@@ -1,0 +1,26 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.features-grid {
+  padding: $spacing-xl $spacing-sm;
+  background-color: $color-bg-dark;
+
+  &__container {
+    @include container;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-md;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    @include large-desktop {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+}
