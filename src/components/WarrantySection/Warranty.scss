@@ -1,0 +1,19 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.warranty-content {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+
+  p {
+    margin-bottom: $spacing-lg;
+    font-size: $font-size-2_5xl;
+    color: $color-text-primary;
+    font-weight: 500;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
