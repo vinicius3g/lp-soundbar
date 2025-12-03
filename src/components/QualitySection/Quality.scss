@@ -1,0 +1,24 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.quality-content-section {
+  .section {
+
+    &__container {
+      &__title {
+        color: $color-text-primary;
+        font-weight: 700;
+        font-size: $font-size-50px ;
+      }
+
+      .quality-content {
+        p {
+          margin-bottom: $spacing-md;
+          line-height: 130%;
+          text-align: center;
+          font-size: $font-size-2_5xl;
+        }
+      }
+    }
+  }
+}
