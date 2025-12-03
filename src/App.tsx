@@ -11,6 +11,7 @@ import { InstallationSection } from "./components/InstallationSection";
 
 import soundbar from "./assets/images/soundbar-waves.png";
 import { ImageContent } from "./components/ImageContent";
+import { BackToTop } from "./components/BackToTop";
 
 const App = () => {
   return (
@@ -62,6 +63,8 @@ const App = () => {
       <ConnectivitySection />
       <InstallationSection />
       <WarrantySection />
+
+      <BackToTop />
     </div>
   );
 };
