@@ -1,0 +1,25 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/_mixins';
+
+.installation-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+
+  p {
+    margin-bottom: $spacing-lg;
+    font-size: $font-size-2_5xl;
+    line-height: 130%;
+    color: $color-text-primary;
+    font-weight: 500;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  &__image {
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+}
